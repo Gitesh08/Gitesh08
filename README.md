@@ -1,11 +1,9 @@
 <h1 align="center">Hi 👋, I'm Gitesh Mahadik</h1>
-<h3 align="center">A passionate Cloud Enthusiastic from India</h3>
+<h3 align="center">A passionate AI/ML Engineer from India</h3>
 
-- 🌱 I’m currently learning **Docker**
+- 🌱 I’m currently learning **AI**
 
-- 👯 I’m looking to collaborate on **Cloud projects**
-
-- 🤝 I’m looking for help with **DevOps**
+- 👯 I’m looking to collaborate on **Cloud and AI/ML projects**
 
 - 📫 How to reach me **gmahadik8080@gmail.com**
 
