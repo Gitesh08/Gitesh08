@@ -45,7 +45,7 @@ class GitHubProfileGenerator:
 ⠸⣕⠀⠀⠐⠀⠀⠈⡇⠀⠀⣀⠀⢾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡀⠀⠀⠀⠀⠀⠀⡿⠀⠀⠀⠀⠀⠀⡸⠀
 ⠀⢯⡧⠀⠀⠀⠀⠀⢿⠀⠀⠈⠳⠄⢠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⠀⠀⠀⠀⠀⡜⠀⠀⠀⠀⠀⠀⠀⡇⠀
 ⠀⢸⣿⡂⠀⠀⠀⠀⠘⡇⡄⠐⠰⣄⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⡀⠀⠀⢰⠁⠀⠀⢀⣤⣤⡄⣺⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀"""
+"""
 
     def get_github_stats(self):
         """Fetch GitHub statistics using the GraphQL API"""
@@ -135,9 +135,9 @@ class GitHubProfileGenerator:
 class SoftwareDeveloper:
     def __init__(self):
         self.name = "{self.username}"
-        self.role = "Full Stack Developer"
+        self.role = "AI Engineer"
         self.languages = {', '.join(stats['languages'])}
-        self.interest = ["Web Development", "AI/ML", "Open Source"]
+        self.interest = ["AI/ML", "Cloud", "Web Development", "Open Source"]
     
     def say_hi(self):
         print("Thanks for visiting my GitHub profile!")
@@ -157,19 +157,18 @@ me.say_hi()
 </p>
 
 ## 🏆 Quick Stats
-- 📦 **Repositories**: {stats['repos']}
-- ⭐ **Stars Earned**: {stats['stars']}
-- 👥 **Followers**: {stats['followers']}
-- 🤝 **Following**: {stats['following']}
-- 🔄 **Commits**: {stats['commits']}
+📦 **Repositories**: {stats['repos']}
+⭐ **Stars Earned**: {stats['stars']}
+👥 **Followers**: {stats['followers']}
+🤝 **Following**: {stats['following']}
+🔄 **Commits**: {stats['commits']}
 
 ## 🛠️ Technologies & Tools
 {' '.join(f"`{lang}` {tech_stack.get(lang, '🔧')}" for lang in stats['languages'])}
 
 ## 📫 Connect With Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-linkedin)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://your-portfolio.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gitesh-mahadik-7487961a0/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gmahadik8080@gmail.com)
 
 ---
 <p align="center">
