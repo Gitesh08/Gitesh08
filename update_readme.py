@@ -37,7 +37,7 @@ class GitHubProfileGenerator:
     def get_ascii_banner(self):
         """Read ASCII banner from assets folder"""
         try:
-            with open('ascii.txt', 'r', encoding='utf-8') as f:
+            with open('assest/ascii_art.txt', 'r', encoding='utf-8') as f:
                 return f.read()
         except:
             print("Error: Could not load ASCII art file")
