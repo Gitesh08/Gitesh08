@@ -98,30 +98,28 @@ class GitHubProfileGenerator:
         }
 
     def generate_fun_stats(self):
-        """Generate fun AI Engineer stats"""
-        return """
-🎮 AI Engineer Stats
-
-PLAYER 1: {username}
-LEVEL: AI ENGINEER
-SKILLS:
-➤ Coffee Drinking: ████████████ 120%
-➤ Bug Creating: ███████████░ 90%
-➤ Bug Fixing: ████░░░░░░░ 40%
-➤ Stack Overflow Searching: ████████████ 120%
-➤ Documentation Reading: ██░░░░░░░░░ 20%
-➤ AI Hype Generation: ████████████ 120%
-""".format(username=self.username.upper())
-
-    def generate_fun_badges(self):
-        """Generate fun custom badges"""
-        return """
+      """Generate animated fun AI Engineer stats using SVG"""
+    stats = [
+        f"PLAYER 1: {self.username}",
+        "LEVEL: AI ENGINEER",
+        "SKILLS:",
+        "➤ Coffee Drinking: ████████████ 120%",
+        "➤ Bug Creating: ███████████░ 90%",
+        "➤ Bug Fixing: ████░░░░░░░ 40%",
+        "➤ Stack Overflow Searching: ████████████ 120%",
+        "➤ Documentation Reading: ██░░░░░░░░░ 20%",
+        "➤ AI Hype Generation: ████████████ 120%"
+    ]
+    
+    # Convert stats to URL-safe format
+    encoded_stats = [line.replace(" ", "%20").replace(":", "%3A").replace("█", "%E2%96%88").replace("░", "%E2%96%91").replace("➤", "%E2%9E%A4") for line in stats]
+    
+    return f"""
 <div align="center">
-  <img src="https://forthebadge.com/images/badges/powered-by-coffee.svg" />
-  <img src="https://forthebadge.com/images/badges/contains-technical-debt.svg" />
-  <img src="https://forthebadge.com/images/badges/works-on-my-machine.svg" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Share%20Tech%20Mono&size=22&duration=2000&pause=800&color=00FFB9&center=true&vCenter=true&repeat=false&width=600&height=320&lines={';'.join(encoded_stats)}" alt="AI Engineer Stats" />
 </div>
 """
+
 
     def generate_readme(self):
         """Generate README content with GitHub stats, ASCII banner, and fun elements"""
@@ -166,7 +164,6 @@ class AIEngineer(HumanBrain):
 me = AIEngineer()
 ```
 
-{self.generate_fun_badges()}
 
 ## 📊 GitHub Statistics
 
