@@ -55,13 +55,6 @@ me = AIEngineer()
 ```
 
 
-<div align="center">
-  <img src="https://forthebadge.com/images/badges/powered-by-coffee.svg" />
-  <img src="https://forthebadge.com/images/badges/contains-technical-debt.svg" />
-  <img src="https://forthebadge.com/images/badges/works-on-my-machine.svg" />
-</div>
-
-
 ## 📊 GitHub Statistics
 
 <p align="center">
@@ -73,18 +66,10 @@ me = AIEngineer()
 </p>
 
 
-🎮 AI Engineer Stats
-
-PLAYER 1: GITESH08
-LEVEL: AI ENGINEER
-SKILLS:
-➤ Coffee Drinking: ████████████ 120%
-➤ Bug Creating: ███████████░ 90%
-➤ Bug Fixing: ████░░░░░░░ 40%
-➤ Stack Overflow Searching: ████████████ 120%
-➤ Documentation Reading: ██░░░░░░░░░ 20%
-➤ AI Hype Generation: ████████████ 120%
-
+      <div align="center">
+        <img src="https://readme-typing-svg.herokuapp.com?font=Share%20Tech%20Mono&size=22&duration=2000&pause=800&color=00FFB9&center=true&vCenter=true&repeat=false&width=600&height=320&lines=PLAYER%201%3A%20Gitesh08;LEVEL%3A%20AI%20ENGINEER;SKILLS%3A;%E2%9E%A4%20Coffee%20Drinking%3A%20%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%20120%;%E2%9E%A4%20Bug%20Creating%3A%20%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%2090%;%E2%9E%A4%20Bug%20Fixing%3A%20%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%2040%;%E2%9E%A4%20Stack%20Overflow%20Searching%3A%20%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%20120%;%E2%9E%A4%20Documentation%20Reading%3A%20%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%2020%;%E2%9E%A4%20AI%20Hype%20Generation%3A%20%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%20120%" alt="AI Engineer Stats" />
+      </div>
+    
 
 ## 🎯 When I'm Not Training Neural Networks...
 
@@ -114,6 +99,6 @@ SKILLS:
 
 ---
 <p align="center">
-  <i>Last Updated: 2024-11-13 07:14:45 UTC</i>
+  <i>Last Updated: 2024-11-13 07:18:03 UTC</i>
 </p>
 </div>
