@@ -37,11 +37,11 @@ class GitHubProfileGenerator:
     def get_ascii_banner(self):
         """Read ASCII banner from assets folder"""
         try:
-            with open('assest/ascii_art.txt', 'r', encoding='utf-8') as f:
+            with open('assets/ascii_art.txt', 'r', encoding='utf-8') as f:
                 return f.read()
         except:
             print("Error: Could not load ASCII art file")
-            return ""
+            return "<!-- ASCII art could not be loaded -->"
 
     def get_github_stats(self):
         """Fetch GitHub statistics using the GraphQL API"""
@@ -99,15 +99,15 @@ class GitHubProfileGenerator:
 
     def generate_fun_stats(self):
         """Generate fun AI Engineer stats with CSS animations"""
-        return """
+        return f"""
 <div align="center">
 <style>
-@keyframes fillBar {
-    from { width: 0; }
-    to { width: var(--fill-percentage); }
-}
+@keyframes fillBar {{
+    from {{ width: 0; }}
+    to {{ width: var(--fill-percentage); }}
+}}
 
-.skill-bar {
+.skill-bar {{
     background: linear-gradient(90deg, var(--bar-color) var(--fill-percentage), #2d2d2d var(--fill-percentage));
     height: 20px;
     border-radius: 10px;
@@ -115,40 +115,40 @@ class GitHubProfileGenerator:
     animation: fillBar 1.5s ease-out forwards;
     display: inline-block;
     width: 200px;
-}
+}}
 
-.stats-container {
+.stats-container {{
     background: #1a1b27;
     border-radius: 10px;
     padding: 20px;
     margin: 20px 0;
     color: #fff;
     font-family: 'Courier New', monospace;
-}
+}}
 
-.skill-label {
+.skill-label {{
     text-align: left;
     margin-right: 10px;
     min-width: 200px;
     display: inline-block;
-}
+}}
 
-.skill-row {
+.skill-row {{
     margin: 10px 0;
     display: flex;
     align-items: center;
-}
+}}
 
-.percentage {
+.percentage {{
     margin-left: 10px;
     min-width: 60px;
-}
+}}
 </style>
 
 <div class="stats-container">
     <h2>🎮 AI Engineer Stats</h2>
     <div style="text-align: center; margin-bottom: 20px;">
-        <h3>PLAYER 1: {username}</h3>
+        <h3>PLAYER 1: {self.username.upper()}</h3>
         <h4>LEVEL: AI ENGINEER</h4>
     </div>
     
@@ -179,7 +179,7 @@ class GitHubProfileGenerator:
     <div class="skill-row">
         <span class="skill-label">➤ Documentation Reading</span>
         <div class="skill-bar" style="--fill-percentage: 20%; --bar-color: #3f9;"></div>
-        <span class="percentage">50%</span>
+        <span class="percentage">20%</span>
     </div>
     
     <div class="skill-row">
@@ -189,7 +189,7 @@ class GitHubProfileGenerator:
     </div>
 </div>
 </div>
-""".format(username=self.username.upper())
+"""
 
     def generate_fun_badges(self):
         """Generate fun custom badges"""
@@ -218,6 +218,9 @@ class GitHubProfileGenerator:
             'Node.js': '💚'
         }
         
+        # Convert daily routine list to string representation
+        daily_routine_str = str(daily_routine).replace("'", '"')
+        
         return f"""<div align="center">
 
 {banner}
@@ -234,12 +237,12 @@ class AIEngineer(HumanBrain):
         super().__init__()
         self.name = "{self.username}"
         self.role = "AI Engineer"
-        self.languages = {', '.join(stats['languages'])}
+        self.languages = {str(stats['languages'])}
         self.interest = ["AI/ML", "Cloud", "Web Development", "Open Source"]
         self.current_status = "{self.brain.train_neural_network()}"
     
     def daily_routine(self):
-        return {daily_routine}
+        return {daily_routine_str}
 
 me = AIEngineer()
 ```
@@ -269,7 +272,7 @@ me = AIEngineer()
 | 📚 Reading documentation | Just kidding, Stack Overflow FTW! |
 
 ## 🛠️ Technologies & Tools
-{' '.join(f"`{lang}` {tech_stack.get(lang, '🔧')}" for lang in stats['languages'])}
+{' '.join(f'`{lang}` {tech_stack.get(lang, "🔧")}' for lang in stats['languages'])}
 
 ## 📫 Connect With Me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gitesh-mahadik-7487961a0/)
