@@ -37,7 +37,7 @@ class GitHubProfileGenerator:
     def get_ascii_banner(self):
         """Read ASCII banner from assets folder"""
         try:
-            with open('assets/ascii_art.txt', 'r', encoding='utf-8') as f:
+            with open('ascii.txt', 'r', encoding='utf-8') as f:
                 return f.read()
         except:
             print("Error: Could not load ASCII art file")
@@ -98,28 +98,108 @@ class GitHubProfileGenerator:
         }
 
     def generate_fun_stats(self):
-      """Generate animated fun AI Engineer stats using SVG"""
-      stats = [
-        f"PLAYER 1: {self.username}",
-        "LEVEL: AI ENGINEER",
-        "SKILLS:",
-        "➤ Coffee Drinking: ████████████ 120%",
-        "➤ Bug Creating: ███████████░ 90%",
-        "➤ Bug Fixing: ████░░░░░░░ 40%",
-        "➤ Stack Overflow Searching: ████████████ 120%",
-        "➤ Documentation Reading: ██░░░░░░░░░ 20%",
-        "➤ AI Hype Generation: ████████████ 120%"
-    ]
-    
-    # Convert stats to URL-safe format
-      encoded_stats = [line.replace(" ", "%20").replace(":", "%3A").replace("█", "%E2%96%88").replace("░", "%E2%96%91").replace("➤", "%E2%9E%A4") for line in stats]
-    
-      return f"""
-      <div align="center">
-        <img src="https://readme-typing-svg.herokuapp.com?font=Share%20Tech%20Mono&size=22&duration=2000&pause=800&color=00FFB9&center=true&vCenter=true&repeat=false&width=600&height=320&lines={';'.join(encoded_stats)}" alt="AI Engineer Stats" />
-      </div>
-    """
+        """Generate fun AI Engineer stats with CSS animations"""
+        return """
+<div align="center">
+<style>
+@keyframes fillBar {
+    from { width: 0; }
+    to { width: var(--fill-percentage); }
+}
 
+.skill-bar {
+    background: linear-gradient(90deg, var(--bar-color) var(--fill-percentage), #2d2d2d var(--fill-percentage));
+    height: 20px;
+    border-radius: 10px;
+    margin: 5px 0;
+    animation: fillBar 1.5s ease-out forwards;
+    display: inline-block;
+    width: 200px;
+}
+
+.stats-container {
+    background: #1a1b27;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    color: #fff;
+    font-family: 'Courier New', monospace;
+}
+
+.skill-label {
+    text-align: left;
+    margin-right: 10px;
+    min-width: 200px;
+    display: inline-block;
+}
+
+.skill-row {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.percentage {
+    margin-left: 10px;
+    min-width: 60px;
+}
+</style>
+
+<div class="stats-container">
+    <h2>🎮 AI Engineer Stats</h2>
+    <div style="text-align: center; margin-bottom: 20px;">
+        <h3>PLAYER 1: {username}</h3>
+        <h4>LEVEL: AI ENGINEER</h4>
+    </div>
+    
+    <div class="skill-row">
+        <span class="skill-label">➤ Coffee Drinking</span>
+        <div class="skill-bar" style="--fill-percentage: 120%; --bar-color: #9f3;"></div>
+        <span class="percentage">120%</span>
+    </div>
+    
+    <div class="skill-row">
+        <span class="skill-label">➤ Bug Creating</span>
+        <div class="skill-bar" style="--fill-percentage: 90%; --bar-color: #f93;"></div>
+        <span class="percentage">90%</span>
+    </div>
+    
+    <div class="skill-row">
+        <span class="skill-label">➤ Bug Fixing</span>
+        <div class="skill-bar" style="--fill-percentage: 40%; --bar-color: #f39;"></div>
+        <span class="percentage">40%</span>
+    </div>
+    
+    <div class="skill-row">
+        <span class="skill-label">➤ Stack Overflow Searching</span>
+        <div class="skill-bar" style="--fill-percentage: 120%; --bar-color: #93f;"></div>
+        <span class="percentage">120%</span>
+    </div>
+    
+    <div class="skill-row">
+        <span class="skill-label">➤ Documentation Reading</span>
+        <div class="skill-bar" style="--fill-percentage: 20%; --bar-color: #3f9;"></div>
+        <span class="percentage">50%</span>
+    </div>
+    
+    <div class="skill-row">
+        <span class="skill-label">➤ AI Hype Generation</span>
+        <div class="skill-bar" style="--fill-percentage: 120%; --bar-color: #f33;"></div>
+        <span class="percentage">120%</span>
+    </div>
+</div>
+</div>
+""".format(username=self.username.upper())
+
+    def generate_fun_badges(self):
+        """Generate fun custom badges"""
+        return """
+<div align="center">
+  <img src="https://forthebadge.com/images/badges/powered-by-coffee.svg" />
+  <img src="https://forthebadge.com/images/badges/contains-technical-debt.svg" />
+  <img src="https://forthebadge.com/images/badges/works-on-my-machine.svg" />
+</div>
+"""
 
     def generate_readme(self):
         """Generate README content with GitHub stats, ASCII banner, and fun elements"""
@@ -164,6 +244,7 @@ class AIEngineer(HumanBrain):
 me = AIEngineer()
 ```
 
+{self.generate_fun_badges()}
 
 ## 📊 GitHub Statistics
 
