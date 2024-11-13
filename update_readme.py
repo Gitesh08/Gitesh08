@@ -99,7 +99,7 @@ class GitHubProfileGenerator:
 
     def generate_fun_stats(self):
       """Generate animated fun AI Engineer stats using SVG"""
-    stats = [
+      stats = [
         f"PLAYER 1: {self.username}",
         "LEVEL: AI ENGINEER",
         "SKILLS:",
@@ -112,13 +112,13 @@ class GitHubProfileGenerator:
     ]
     
     # Convert stats to URL-safe format
-    encoded_stats = [line.replace(" ", "%20").replace(":", "%3A").replace("█", "%E2%96%88").replace("░", "%E2%96%91").replace("➤", "%E2%9E%A4") for line in stats]
+      encoded_stats = [line.replace(" ", "%20").replace(":", "%3A").replace("█", "%E2%96%88").replace("░", "%E2%96%91").replace("➤", "%E2%9E%A4") for line in stats]
     
-    return f"""
-<div align="center">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Share%20Tech%20Mono&size=22&duration=2000&pause=800&color=00FFB9&center=true&vCenter=true&repeat=false&width=600&height=320&lines={';'.join(encoded_stats)}" alt="AI Engineer Stats" />
-</div>
-"""
+      return f"""
+      <div align="center">
+        <img src="https://readme-typing-svg.herokuapp.com?font=Share%20Tech%20Mono&size=22&duration=2000&pause=800&color=00FFB9&center=true&vCenter=true&repeat=false&width=600&height=320&lines={';'.join(encoded_stats)}" alt="AI Engineer Stats" />
+      </div>
+    """
 
 
     def generate_readme(self):
