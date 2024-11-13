@@ -74,93 +74,29 @@ me = AIEngineer()
 
 
 <div align="center">
-<style>
-@keyframes fillBar {
-    from { width: 0; }
-    to { width: var(--fill-percentage); }
-}
+<h2>🎮 AI Engineer Stats & Game</h2>
 
-.skill-bar {
-    background: linear-gradient(90deg, var(--bar-color) var(--fill-percentage), #2d2d2d var(--fill-percentage));
-    height: 20px;
-    border-radius: 10px;
-    margin: 5px 0;
-    animation: fillBar 1.5s ease-out forwards;
-    display: inline-block;
-    width: 200px;
-}
-
-.stats-container {
-    background: #1a1b27;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 20px 0;
-    color: #fff;
-    font-family: 'Courier New', monospace;
-}
-
-.skill-label {
-    text-align: left;
-    margin-right: 10px;
-    min-width: 200px;
-    display: inline-block;
-}
-
-.skill-row {
-    margin: 10px 0;
-    display: flex;
-    align-items: center;
-}
-
-.percentage {
-    margin-left: 10px;
-    min-width: 60px;
-}
-</style>
-
-<div class="stats-container">
-    <h2>🎮 AI Engineer Stats</h2>
-    <div style="text-align: center; margin-bottom: 20px;">
-        <h3>PLAYER 1: GITESH08</h3>
-        <h4>LEVEL: AI ENGINEER</h4>
-    </div>
-    
-    <div class="skill-row">
-        <span class="skill-label">➤ Coffee Drinking</span>
-        <div class="skill-bar" style="--fill-percentage: 120%; --bar-color: #9f3;"></div>
-        <span class="percentage">120%</span>
-    </div>
-    
-    <div class="skill-row">
-        <span class="skill-label">➤ Bug Creating</span>
-        <div class="skill-bar" style="--fill-percentage: 90%; --bar-color: #f93;"></div>
-        <span class="percentage">90%</span>
-    </div>
-    
-    <div class="skill-row">
-        <span class="skill-label">➤ Bug Fixing</span>
-        <div class="skill-bar" style="--fill-percentage: 40%; --bar-color: #f39;"></div>
-        <span class="percentage">40%</span>
-    </div>
-    
-    <div class="skill-row">
-        <span class="skill-label">➤ Stack Overflow Searching</span>
-        <div class="skill-bar" style="--fill-percentage: 120%; --bar-color: #93f;"></div>
-        <span class="percentage">120%</span>
-    </div>
-    
-    <div class="skill-row">
-        <span class="skill-label">➤ Documentation Reading</span>
-        <div class="skill-bar" style="--fill-percentage: 20%; --bar-color: #3f9;"></div>
-        <span class="percentage">20%</span>
-    </div>
-    
-    <div class="skill-row">
-        <span class="skill-label">➤ AI Hype Generation</span>
-        <div class="skill-bar" style="--fill-percentage: 120%; --bar-color: #f33;"></div>
-        <span class="percentage">120%</span>
-    </div>
+<div style="margin: 20px 0;">
+    <h3>🎮 Play My AI Game!</h3>
+    <a href="https://gitesh08.github.io/ai-game/" target="_blank">
+        <img src="https://img.shields.io/badge/Play%20Now-AI%20Game-brightgreen?style=for-the-badge&logo=game&logoColor=white" alt="Play AI Game" />
+    </a>
+    <p>Click to play an exciting AI-themed game I created! Test your skills and have fun! 🎯</p>
 </div>
+
+
+<h3>PLAYER 1: GITESH08</h3>
+<h4>LEVEL: AI ENGINEER</h4>
+
+| Skill | Level |
+|-------|--------|
+| ☕ Coffee Drinking | ████████████ 120% |
+| 🐛 Bug Creating | █████████░░ 90% |
+| 🔧 Bug Fixing | ████░░░░░░ 40% |
+| 🔍 Stack Overflow Searching | ████████████ 120% |
+| 📚 Documentation Reading | ██░░░░░░░░ 20% |
+| 🤖 AI Hype Generation | ████████████ 120% |
+
 </div>
 
 
@@ -192,6 +128,6 @@ me = AIEngineer()
 
 ---
 <p align="center">
-  <i>Last Updated: 2024-11-13 08:11:20 UTC</i>
+  <i>Last Updated: 2024-11-13 08:12:18 UTC</i>
 </p>
 </div>
