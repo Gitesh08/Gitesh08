@@ -33,7 +33,7 @@
 ⠸⣕⠀⠀⠐⠀⠀⠈⡇⠀⠀⣀⠀⢾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡀⠀⠀⠀⠀⠀⠀⡿⠀⠀⠀⠀⠀⠀⡸⠀
 ⠀⢯⡧⠀⠀⠀⠀⠀⢿⠀⠀⠈⠳⠄⢠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⠀⠀⠀⠀⠀⡜⠀⠀⠀⠀⠀⠀⠀⡇⠀
 ⠀⢸⣿⡂⠀⠀⠀⠀⠘⡇⡄⠐⠰⣄⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⡀⠀⠀⢰⠁⠀⠀⢀⣤⣤⡄⣺⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀
+
 ```
 
 # Hi there, I'm Gitesh08 👋
@@ -47,9 +47,9 @@
 class SoftwareDeveloper:
     def __init__(self):
         self.name = "Gitesh08"
-        self.role = "Full Stack Developer"
+        self.role = "AI Engineer"
         self.languages = C++, Python, JavaScript, HTML, CSS
-        self.interest = ["Web Development", "AI/ML", "Open Source"]
+        self.interest = ["AI/ML", "Cloud", "Web Development", "Open Source"]
     
     def say_hi(self):
         print("Thanks for visiting my GitHub profile!")
@@ -69,22 +69,21 @@ me.say_hi()
 </p>
 
 ## 🏆 Quick Stats
-- 📦 **Repositories**: 47
-- ⭐ **Stars Earned**: 23
-- 👥 **Followers**: 20
-- 🤝 **Following**: 15
-- 🔄 **Commits**: 92
+📦 **Repositories**: 47
+⭐ **Stars Earned**: 23
+👥 **Followers**: 20
+🤝 **Following**: 15
+🔄 **Commits**: 95
 
 ## 🛠️ Technologies & Tools
 `C++` 🔧 `Python` 🐍 `JavaScript` 📜 `HTML` 🌐 `CSS` 🎨
 
 ## 📫 Connect With Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-linkedin)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://your-portfolio.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gitesh-mahadik-7487961a0/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gmahadik8080@gmail.com)
 
 ---
 <p align="center">
-  <i>Last Updated: 2024-11-13 06:48:43 UTC</i>
+  <i>Last Updated: 2024-11-13 06:50:52 UTC</i>
 </p>
 </div>
