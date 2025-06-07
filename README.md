@@ -10,7 +10,7 @@ Developer fueled by tea and coffee, building stuff that sometimes works. I code,
 
 </td>
 <td width="40%">
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Coding" width="100%" style="border-radius: 10px;"/>
+<img src="https://giphy.com/gifs/strangerthings-season-1-stranger-things-l1J9qrAVNHt1bDi2A" alt="Coding" width="100%" style="border-radius: 10px;"/>
 </td>
 </tr>
 </table>
