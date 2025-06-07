@@ -57,30 +57,6 @@
   <p style="color: #b85c51; text-shadow: 0 0 4px #b85c51; margin: 5px 0; font-size: 1em;">Top 3 Repos</p>
   <img src="https://github-contributor-stats.vercel.app/api?username=Gitesh08&limit=3&theme=transparent&combine_all_yearly_contributions=true" alt="Top Contributed Repos" style="border-radius: 6px; box-shadow: 0 4px 10px rgba(148, 188, 188, 0.2); max-width: 400px;">
 </div>
-<!-- GITHUB_STATS_END -->
-
-<div align="center" style="padding: 10px; margin: 15px 0;">
-  <svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Otixo Cube</title>
-    <style type="text/css">
-      .text {{
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-        font-weight: bold;
-        fill: #b85c51;
-      }}
-    </style>
-    <defs>
-        <polygon id="pathCube" points="0 7 18 0 56 7 56 49 18 56 0 49"></polygon>
-    </defs>
-    <g id="cube">
-        <mask id="maskCube" fill="white">
-            <use xlink:href="#pathCube"></use>
-        </mask>
-        <use fill="#94bcbc" xlink:href="#pathCube"></use>
-        <rect id="Shadow" fill="#345a54" fill-rule="nonzero" opacity="0.2" mask="url(#maskCube)" x="0" y="0" width="18" height="56"></rect>
-    </g>
-  </svg>
-</div>
 
 <style>
   body {
