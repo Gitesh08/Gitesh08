@@ -1,11 +1,10 @@
 # Hey there, I'm Gitesh! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" height="30px" />
 
 
-## 🚀 About Me
-
 <table>
 <tr>
 <td width="60%">
+### 🚀 About Me
 
 Developer fueled by tea and coffee, building stuff that sometimes works. I code, I break things, then I blog about it like it was all part of the master plan.
 
