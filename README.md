@@ -5,11 +5,11 @@
 <tr>
 <td width="60%" valign="middle">
 
-**Dev fueled by:**
+##### Dev fueled by:
 - ☕ Tea & Coffee
 - 📺 Stranger Things
 
-**Mission:**
+🎯 **Mission:**
 *Wielding Dustin's nerdy genius to code slick projects, break the right bugs, and blog it like I'm scripting the next Hawkins saga.*
 
 </td>
