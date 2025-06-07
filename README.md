@@ -1,53 +1,79 @@
-# Hey, I'm Gitesh! 👋
+# Hey there, I'm Gitesh! 👋
 
-<div align="center" style="background: linear-gradient(145deg, #1e0707, #345a54); padding: 15px; border-radius: 12px; margin: 15px 0; backdrop-filter: blur(6px); box-shadow: 0 6px 20px rgba(52, 90, 84, 0.3);">
-  <table style="background: none; width: 100%;">
-    <tr>
-      <td style="padding: 10px;">
-        <h2 style="color: #b85c51; letter-spacing: 1px; text-transform: uppercase; text-shadow: 0 0 4px #b85c51; font-size: 1.5em;">About Me</h2>
-        <p style="background: rgba(30, 7, 7, 0.3); padding: 10px; border-radius: 6px; border: 1px solid rgba(148, 188, 188, 0.2); font-size: 0.9em; line-height: 1.4; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
-          I’m a developer who loves building web apps with Angular, TypeScript, Python, and JavaScript. I create AI-powered tools to make life easier and share my tech journey through blogs on Medium.
-        </p>
-      </td>
-      <td width="25%" align="right">
-        <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" alt="Coding GIF" width="100%" style="border-radius: 6px; border: 1px solid #94bcbc; box-shadow: 0 0 10px rgba(148, 188, 188, 0.2);">
-      </td>
-    </tr>
-  </table>
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=E50914&background=00000000&center=true&vCenter=true&width=600&lines=Full+Stack+Developer+%7C+AI+Enthusiast;Building+Web+Apps+with+Modern+Tech;Sharing+Knowledge+Through+Blogs" alt="Typing SVG" />
 </div>
 
-## 🔗 Connect
-<p align="center" style="margin: 10px 0;">
-  <a href="https://www.linkedin.com/in/gitesh-mahadik-7487961a0/" style="margin: 5px;">
-    <img src="https://img.shields.io/badge/LinkedIn-b85c51?style=flat&logo=linkedin&logoColor=94bcbc&labelColor=1e0707" alt="LinkedIn" style="border-radius: 5px; height: 20px; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
-  </a>
-  <a href="mailto:gmahadik8080@gmail.com" style="margin: 5px;">
-    <img src="https://img.shields.io/badge/Email-94bcbc?style=flat&logo=gmail&logoColor=1e0707&labelColor=345a54" alt="Email" style="border-radius: 5px; height: 20px; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
-  </a>
-  <a href="https://medium.com/@gitesh08" style="margin: 5px;">
-    <img src="https://img.shields.io/badge/Medium-b85c51?style=flat&logo=medium&logoColor=94bcbc&labelColor=1e0707" alt="Medium" style="border-radius: 5px; height: 20px; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
-  </a>
-</p>
+---
 
-<!-- GITHUB_STATS_START -->
-## 📊 GitHub Stats
-<table align="center" style="background: linear-gradient(145deg, #1e0707, #345a54); padding: 10px; border-radius: 10px; margin: 15px 0; box-shadow: 0 6px 20px rgba(52, 90, 84, 0.3); border: none;">
-  <tr style="border: none;">
-    <td colspan="2" align="center" style="padding: 5px;">
-      <img src="https://github-readme-stats.vercel.app/api?username=Gitesh08&show_icons=true&bg_color=00000000&text_color=94bcbc&title_color=b85c51&icon_color=345a54&hide_border=true&include_all_commits=false&count_private=false&hide=stars,issues&custom_title=Activity" alt="GitHub Stats" style="border-radius: 6px; box-shadow: 0 4px 10px rgba(148, 188, 188, 0.2); max-width: 400px;">
-    </td>
-  </tr>
-  <tr style="border: none;">
-    <td width="50%" align="center" style="padding: 5px;">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gitesh08&langs_count=6&layout=compact&bg_color=00000000&text_color=94bcbc&title_color=b85c51&icon_color=345a54&hide_border=true&hide=jupyter%20notebook&custom_title=Top%20Languages" alt="Top Languages" style="border-radius: 6px; box-shadow: 0 4px 10px rgba(148, 188,0.2); max-width: 250px;">
-    </td>
-    <td width="50%" align="center" style="padding: 5px;">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Gitesh08&background=00000000&border=345a54&stroke=b85c51&ring=94bcbc&fire=94bcbc&currStreakNum=94b85c51&sideNums=94bcbc&currStreakLabel=b85c51&sideLabels=b85c51&dates=345a54&hide_border=true" alt="GitHub Streak" style="border-radius: 6px; box-shadow: 0 4px 10px rgba(148, 188,0.2); max-width: 250px;">
-    </td>
-  </tr>
+## 🚀 About Me
+
+<table>
+<tr>
+<td width="60%">
+
+🔹 **Full Stack Developer** passionate about creating innovative web applications
+🔹 **Tech Stack:** Angular, TypeScript, Python, JavaScript
+🔹 **AI Enthusiast** building tools that make life easier
+🔹 **Content Creator** sharing insights on Medium
+🔹 **Problem Solver** who loves clean, efficient code
+
+</td>
+<td width="40%">
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Coding" width="100%" style="border-radius: 10px;"/>
+</td>
+</tr>
 </table>
 
-## 🤝 Top Contribution Repos
-<div align="center" style="background: rgba(30,7,8,0.85); padding: 10px; border-radius: 2px;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
-  <img src="https://github-contributor-stats.vercel.app/api?username=Gitesh08&limit=3&theme=transparent&combine_all_yearly_contributions=true" alt="Top Contributed Repos" style="border-radius: 6px; box-shadow: 0 4px 10px rgba(148,188,0.2); max-width: 400px;">
+---
+
+## 📊 GitHub Analytics
+
+<div align="center">
+<table>
+<tr>
+<td width="50%">
+<img src="https://github-readme-stats.vercel.app/api?username=Gitesh08&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=E50914&text_color=FFFFFF&icon_color=221F1F" alt="GitHub Stats"/>
+</td>
+<td width="50%">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Gitesh08&theme=radical&hide_border=true&background=0D1117&stroke=E50914&ring=FFFFFF&fire=E50914&currStreakLabel=E50914" alt="GitHub Streak"/>
+</td>
+</tr>
+</table>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gitesh08&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=E50914&text_color=FFFFFF&hide=jupyter%20notebook" alt="Top Languages"/>
+</div>
+
+---
+
+## 🏆 Contribution Highlights
+
+<div align="center">
+<img src="https://github-contributor-stats.vercel.app/api?username=Gitesh08&limit=4&theme=dark&combine_all_yearly_contributions=true" alt="Top Contributed Repos"/>
+</div>
+
+---
+
+## 📈 Activity Graph
+
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Gitesh08&bg_color=0D1117&color=FFFFFF&line=E50914&point=221F1F&area=true&hide_border=true" alt="Contribution Graph"/>
+</div>
+
+---
+
+## 🌐 Let's Connect!
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-E50914?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gitesh-mahadik-7487961a0/)
+[![Medium](https://img.shields.io/badge/Medium-221F1F?style=for-the-badge&logo=medium&logoColor=E50914)](https://medium.com/@gitesh08)
+[![Email](https://img.shields.io/badge/Email-E50914?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gmahadik8080@gmail.com)
+
+</div>
+
+---
+
+<div align="center">
+<img src="https://komarev.com/ghpvc/?username=Gitesh08&color=E50914&style=for-the-badge&label=Profile+Views" alt="Profile Views"/>
 </div>
