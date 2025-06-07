@@ -1,14 +1,10 @@
-<p align="center">
-  <img src="https://via.placeholder.com/1000x150/1e0707/94bcbc?text=Gitesh" alt="Profile Banner" width="100%" style="border-radius: 10px; box-shadow: 0 0 15px rgba(148, 188, 188, 0.3);">
-</p>
-
 # Hey, I'm Gitesh! 👋
 
 <div align="center" style="background: linear-gradient(145deg, #1e0707, #345a54); padding: 15px; border-radius: 12px; margin: 15px 0; backdrop-filter: blur(6px); box-shadow: 0 6px 20px rgba(52, 90, 84, 0.3);">
   <table style="background: none; width: 100%;">
     <tr>
       <td style="padding: 10px;">
-        <h2 style="color: #b85c51; letter-spacing: 1px; text-transform: uppercase; text-shadow: 0 0 4px #b85c51; font-size: 1.5em;">About</h2>
+        <h2 style="color: #b85c51; letter-spacing: 1px; text-transform: uppercase; text-shadow: 0 0 4px #b85c51; font-size: 1.5em;">About Me</h2>
         <p style="background: rgba(30, 7, 7, 0.3); padding: 10px; border-radius: 6px; border: 1px solid rgba(148, 188, 188, 0.2); font-size: 0.9em; line-height: 1.4; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
           I’m a developer who loves building web apps with Angular, TypeScript, Python, and JavaScript. I create AI-powered tools to make life easier and share my tech journey through blogs on Medium.
         </p>
@@ -22,16 +18,13 @@
 
 ## 🔗 Connect
 <p align="center" style="margin: 10px 0;">
-  <a href="https://linkedin.com/in/gitesh08" style="margin: 5px;">
+  <a href="https://www.linkedin.com/in/gitesh-mahadik-7487961a0/" style="margin: 5px;">
     <img src="https://img.shields.io/badge/LinkedIn-b85c51?style=flat&logo=linkedin&logoColor=94bcbc&labelColor=1e0707" alt="LinkedIn" style="border-radius: 5px; height: 20px; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
   </a>
-  <a href="mailto:your.email@example.com" style="margin: 5px;">
+  <a href="mailto:gmahadik8080@gmail.com" style="margin: 5px;">
     <img src="https://img.shields.io/badge/Email-94bcbc?style=flat&logo=gmail&logoColor=1e0707&labelColor=345a54" alt="Email" style="border-radius: 5px; height: 20px; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
   </a>
-  <a href="https://x.com/your-username" style="margin: 5px;">
-    <img src="https://img.shields.io/badge/X-1e0707?style=flat&logo=x&logoColor=b85c51&labelColor=345a54" alt="X" style="border-radius: 5px; height: 20px; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
-  </a>
-  <a href="https://medium.com/@your-username" style="margin: 5px;">
+  <a href="https://medium.com/@gitesh08" style="margin: 5px;">
     <img src="https://img.shields.io/badge/Medium-b85c51?style=flat&logo=medium&logoColor=94bcbc&labelColor=1e0707" alt="Medium" style="border-radius: 5px; height: 20px; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
   </a>
 </p>
@@ -54,32 +47,7 @@
   </tr>
 </table>
 
-## 📊 Top Contribution Repos
+## 🤝 Top Contribution Repos
 <div align="center" style="background: rgba(30,7,8,0.85); padding: 10px; border-radius: 2px;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
   <img src="https://github-contributor-stats.vercel.app/api?username=Gitesh08&limit=3&theme=transparent&combine_all_yearly_contributions=true" alt="Top Contributed Repos" style="border-radius: 6px; box-shadow: 0 4px 10px rgba(148,188,0.2); max-width: 400px;">
 </div>
-
-<style>
-  body {
-    font-family: 'Helvetica', Arial, sans-serif;
-    background: #1e0707;
-    color: #94bcbc;
-  }
-  h1, h2 {
-    font-family: 'Helvetica', Arial, sans-serif;
-    color: #b85c51;
-    text-shadow: 0 0 4px #b85c51;
-  }
-  p, a {
-    font-family: 'Helvetica', Arial, sans-serif;
-    color: #94bcbc;
-  }
-  table {
-    border: none;
-    width: 100%;
-  }
-  td {
-    vertical-align: top;
-    border: none;
-  }
-</style>
