@@ -3,10 +3,9 @@
 
 <table>
 <tr>
-<td width="60%">
-<h2> 🚀 About Me</h2>
+<td width="40%">
 
-Developer fueled by tea and coffee, building stuff that sometimes works. I code, I break things, then I blog about it like it was all part of the master plan.
+Dev fueled by tea, coffee, and Stranger Things, I wield Dustin’s nerdy genius to code slick projects, break the right bugs, and blog it like I’m scripting the next Hawkins saga.
 
 </td>
 <td width="40%">
