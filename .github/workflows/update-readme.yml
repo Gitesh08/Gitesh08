@@ -2,7 +2,7 @@ name: Update GitHub Profile README
 on:
   schedule:
     - cron: "0 0 * * *" # Runs daily at midnight UTC
-  workflow_dispatch: # Allows manual trigger
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -19,40 +19,6 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install requests
-      - name: Generate Code Cube Animation
-        run: |
-          mkdir -p dist
-          cat > dist/code-cube.svg << 'EOF'
-          <svg width="200" height="200" viewBox="-100 -100 200 200" xmlns="http://www.w3.org/2000/svg">
-            <style>
-              .cube { fill: none; stroke: #94bcbc; stroke-width: 2; animation: spin 6s linear infinite; }
-              .glow { stroke: #b85c51; stroke-width: 3; filter: url(#glow); }
-              @keyframes spin {
-                0% { transform: rotateX(0deg) rotateY(0deg); }
-                100% { transform: rotateX(360deg) rotateY(360deg); }
-              }
-              .text { font-family: 'Helvetica', Arial, sans-serif; fill: #b85c51; font-size: 12px; opacity: 0.8; }
-            </style>
-            <defs>
-              <filter id="glow">
-                <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
-                <feMerge>
-                  <feMergeNode in="coloredBlur"/>
-                  <feMergeNode in="SourceGraphic"/>
-                </feMerge>
-              </filter>
-            </defs>
-            <rect x="0" y="0" width="200" height="200" fill="#1e0707"/>
-            <g transform="translate(0, 0) scale(0.7)">
-              <g style="transform-origin: center; animation: spin 6s linear infinite;">
-                <path d="M-50 -50 L50 -50 L50 50 L-50 50 Z" class="cube"/>
-                <path d="M-50 -50 L-50 -50 L-50 50 L50 50" class="cube glow"/>
-                <path d="M50 -50 L50 -50 L50 50 L-50 50" class="cube"/>
-              </g>
-            </g>
-            <text x="-90" y="90" class="text">Code Cube</text>
-          </svg>
-          EOF
       - name: Update README
         env:
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
@@ -62,6 +28,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add README.md dist/code-cube.svg
-          git diff --quiet && git diff --staged --quiet || git commit -m "Update GitHub Stats and code cube SVG"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update GitHub Stats"
           git push

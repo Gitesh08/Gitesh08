@@ -22,13 +22,16 @@
 
 ## 🔗 Connect
 <p align="center" style="margin: 10px 0;">
-  <a href="https://www.linkedin.com/in/gitesh-mahadik-7487961a0/" style="margin: 5px;">
+  <a href="https://linkedin.com/in/gitesh08" style="margin: 5px;">
     <img src="https://img.shields.io/badge/LinkedIn-b85c51?style=flat&logo=linkedin&logoColor=94bcbc&labelColor=1e0707" alt="LinkedIn" style="border-radius: 5px; height: 20px; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
   </a>
-  <a href="mailto:gmahadik8080@gmail.com" style="margin: 5px;">
+  <a href="mailto:your.email@example.com" style="margin: 5px;">
     <img src="https://img.shields.io/badge/Email-94bcbc?style=flat&logo=gmail&logoColor=1e0707&labelColor=345a54" alt="Email" style="border-radius: 5px; height: 20px; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
   </a>
-  <a href="https://medium.com/@gitesh08" style="margin: 5px;">
+  <a href="https://x.com/your-username" style="margin: 5px;">
+    <img src="https://img.shields.io/badge/X-1e0707?style=flat&logo=x&logoColor=b85c51&labelColor=345a54" alt="X" style="border-radius: 5px; height: 20px; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+  </a>
+  <a href="https://medium.com/@your-username" style="margin: 5px;">
     <img src="https://img.shields.io/badge/Medium-b85c51?style=flat&logo=medium&logoColor=94bcbc&labelColor=1e0707" alt="Medium" style="border-radius: 5px; height: 20px; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
   </a>
 </p>
@@ -57,7 +60,26 @@
 <!-- GITHUB_STATS_END -->
 
 <div align="center" style="padding: 10px; margin: 15px 0;">
-  <img src="https://github.com/Gitesh08/Gitesh08/blob/output/code-cube.svg" alt="Code Cube Animation" style="filter: drop-shadow(0 0 10px #b85c51); max-width: 200px;">
+  <svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Otixo Cube</title>
+    <style type="text/css">
+      .text {{
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-weight: bold;
+        fill: #b85c51;
+      }}
+    </style>
+    <defs>
+        <polygon id="pathCube" points="0 7 18 0 56 7 56 49 18 56 0 49"></polygon>
+    </defs>
+    <g id="cube">
+        <mask id="maskCube" fill="white">
+            <use xlink:href="#pathCube"></use>
+        </mask>
+        <use fill="#94bcbc" xlink:href="#pathCube"></use>
+        <rect id="Shadow" fill="#345a54" fill-rule="nonzero" opacity="0.2" mask="url(#maskCube)" x="0" y="0" width="18" height="56"></rect>
+    </g>
+  </svg>
 </div>
 
 <style>
