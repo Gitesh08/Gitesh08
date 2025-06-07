@@ -53,8 +53,9 @@
     </td>
   </tr>
 </table>
+
+## 📊 Top Contribution Repos
 <div align="center" style="background: rgba(30,7,8,0.85); padding: 10px; border-radius: 2px;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
-  <p style="color: rgb(181,85,81); text-shadow: 0 0 4px rgba(181,85,81,0.5); margin: 5px 0; font-size: 1em;">Top 3 Repos</p>
   <img src="https://github-contributor-stats.vercel.app/api?username=Gitesh08&limit=3&theme=transparent&combine_all_yearly_contributions=true" alt="Top Contributed Repos" style="border-radius: 6px; box-shadow: 0 4px 10px rgba(148,188,0.2); max-width: 400px;">
 </div>
 
