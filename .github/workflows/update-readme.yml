@@ -55,7 +55,7 @@ jobs:
           EOF
       - name: Update README
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
           GITHUB_USERNAME: "Gitesh08"
         run: python update_readme.py
       - name: Commit and push changes

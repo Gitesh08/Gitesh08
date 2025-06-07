@@ -10,7 +10,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 class GitHubProfileGenerator:
     def __init__(self, username: str):
         self.username = username
-        self.headers = {'Authorization': f"token {os.environ.get('GITHUB_TOKEN', '')}"}
+        self.headers = {'Authorization': f"token {os.environ.get('PAT_TOKEN', '')}"}
         self.logger = logging.getLogger(__name__)
 
     def get_github_stats(self) -> Dict[str, Any]:
