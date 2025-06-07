@@ -46,16 +46,16 @@
   </tr>
   <tr style="border: none;">
     <td width="50%" align="center" style="padding: 5px;">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gitesh08&langs_count=6&layout=compact&bg_color=00000000&text_color=94bcbc&title_color=b85c51&icon_color=345a54&hide_border=true&hide=jupyter%20notebook&custom_title=Top%20Languages" alt="Top Languages" style="border-radius: 6px; box-shadow: 0 4px 10px rgba(148, 188, 188, 0.2); max-width: 250px;">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gitesh08&langs_count=6&layout=compact&bg_color=00000000&text_color=94bcbc&title_color=b85c51&icon_color=345a54&hide_border=true&hide=jupyter%20notebook&custom_title=Top%20Languages" alt="Top Languages" style="border-radius: 6px; box-shadow: 0 4px 10px rgba(148, 188,0.2); max-width: 250px;">
     </td>
     <td width="50%" align="center" style="padding: 5px;">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Gitesh08&background=00000000&border=345a54&stroke=b85c51&ring=94bcbc&fire=94bcbc&currStreakNum=94bcbc&sideNums=94bcbc&currStreakLabel=b85c51&sideLabels=b85c51&dates=345a54&hide_border=true" alt="GitHub Streak" style="border-radius: 6px; box-shadow: 0 4px 10px rgba(148, 188, 188, 0.2); max-width: 250px;">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Gitesh08&background=00000000&border=345a54&stroke=b85c51&ring=94bcbc&fire=94bcbc&currStreakNum=94b85c51&sideNums=94bcbc&currStreakLabel=b85c51&sideLabels=b85c51&dates=345a54&hide_border=true" alt="GitHub Streak" style="border-radius: 6px; box-shadow: 0 4px 10px rgba(148, 188,0.2); max-width: 250px;">
     </td>
   </tr>
 </table>
-<div align="center" style="background: rgba(30, 7, 7, 0.4); padding: 10px; border-radius: 10px; margin: 15px 0; border: 1px solid rgba(181, 92, 81, 0.2); backdrop-filter: blur(5px); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
-  <p style="color: #b85c51; text-shadow: 0 0 4px #b85c51; margin: 5px 0; font-size: 1em;">Top 3 Repos</p>
-  <img src="https://github-contributor-stats.vercel.app/api?username=Gitesh08&limit=3&theme=transparent&combine_all_yearly_contributions=true" alt="Top Contributed Repos" style="border-radius: 6px; box-shadow: 0 4px 10px rgba(148, 188, 188, 0.2); max-width: 400px;">
+<div align="center" style="background: rgba(30,7,8,0.85); padding: 10px; border-radius: 2px;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
+  <p style="color: rgb(181,85,81); text-shadow: 0 0 4px rgba(181,85,81,0.5); margin: 5px 0; font-size: 1em;">Top 3 Repos</p>
+  <img src="https://github-contributor-stats.vercel.app/api?username=Gitesh08&limit=3&theme=transparent&combine_all_yearly_contributions=true" alt="Top Contributed Repos" style="border-radius: 6px; box-shadow: 0 4px 10px rgba(148,188,0.2); max-width: 400px;">
 </div>
 
 <style>
