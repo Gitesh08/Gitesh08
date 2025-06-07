@@ -5,7 +5,7 @@
 <tr>
 <td width="60%" valign="middle">
 
-##### Dev fueled by:
+#### Dev fueled by:
 - ☕ Tea & Coffee
 - 📺 Stranger Things
 
