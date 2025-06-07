@@ -1,10 +1,5 @@
-# Hey there, I'm Gitesh! 👋
+# Hey there, I'm Gitesh! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" height="30px" />
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=E50914&background=00000000&center=true&vCenter=true&width=600&lines=Full+Stack+Developer+%7C+AI+Enthusiast;Building+Web+Apps+with+Modern+Tech;Sharing+Knowledge+Through+Blogs" alt="Typing SVG" />
-</div>
-
----
 
 ## 🚀 About Me
 
@@ -12,11 +7,7 @@
 <tr>
 <td width="60%">
 
-🔹 **Full Stack Developer** passionate about creating innovative web applications
-🔹 **Tech Stack:** Angular, TypeScript, Python, JavaScript
-🔹 **AI Enthusiast** building tools that make life easier
-🔹 **Content Creator** sharing insights on Medium
-🔹 **Problem Solver** who loves clean, efficient code
+Developer fueled by tea and coffee, building stuff that sometimes works. I code, I break things, then I blog about it like it was all part of the master plan.
 
 </td>
 <td width="40%">
@@ -25,7 +16,15 @@
 </tr>
 </table>
 
----
+## 🌐 Let's Connect!
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-E50914?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gitesh-mahadik-7487961a0/)
+[![Medium](https://img.shields.io/badge/Medium-221F1F?style=for-the-badge&logo=medium&logoColor=E50914)](https://medium.com/@gitesh08)
+[![Email](https://img.shields.io/badge/Email-E50914?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gmahadik8080@gmail.com)
+
+</div>
 
 ## 📊 GitHub Analytics
 
@@ -44,15 +43,13 @@
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gitesh08&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=E50914&text_color=FFFFFF&hide=jupyter%20notebook" alt="Top Languages"/>
 </div>
 
----
 
 ## 🏆 Contribution Highlights
 
 <div align="center">
-<img src="https://github-contributor-stats.vercel.app/api?username=Gitesh08&limit=4&theme=dark&combine_all_yearly_contributions=true" alt="Top Contributed Repos"/>
+<img src="https://github-contributor-stats.vercel.app/api?username=Gitesh08&limit=3&theme=dark&combine_all_yearly_contributions=true" alt="Top Contributed Repos"/>
 </div>
 
----
 
 ## 📈 Activity Graph
 
@@ -60,19 +57,6 @@
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Gitesh08&bg_color=0D1117&color=FFFFFF&line=E50914&point=221F1F&area=true&hide_border=true" alt="Contribution Graph"/>
 </div>
 
----
-
-## 🌐 Let's Connect!
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-E50914?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gitesh-mahadik-7487961a0/)
-[![Medium](https://img.shields.io/badge/Medium-221F1F?style=for-the-badge&logo=medium&logoColor=E50914)](https://medium.com/@gitesh08)
-[![Email](https://img.shields.io/badge/Email-E50914?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gmahadik8080@gmail.com)
-
-</div>
-
----
 
 <div align="center">
 <img src="https://komarev.com/ghpvc/?username=Gitesh08&color=E50914&style=for-the-badge&label=Profile+Views" alt="Profile Views"/>
