@@ -3,7 +3,7 @@
 
 <table>
 <tr>
-<td width="40%">
+<td width="60%" style="font-size: 18px; vertical-align: middle;>
 
 Dev fueled by tea, coffee, and Stranger Things, I wield Dustin’s nerdy genius to code slick projects, break the right bugs, and blog it like I’m scripting the next Hawkins saga.
 
