@@ -4,8 +4,14 @@
 <table>
 <tr>
 <td width="60%" valign="middle">
-<h2>Dev fueled by tea, coffee, and Stranger Things</h2>
-<p>I wield Dustin's nerdy genius to code slick projects, break the right bugs, and blog it like I'm scripting the next Hawkins saga.</p>
+
+**Dev fueled by:**
+- ☕ Tea & Coffee
+- 📺 Stranger Things
+
+**Mission:**
+*Wielding Dustin's nerdy genius to code slick projects, break the right bugs, and blog it like I'm scripting the next Hawkins saga.*
+
 </td>
 <td width="40%">
 <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTZsZ3V5amMzMXoxbzhpczhlY29jdjNnbG5ocWZsdWMyNHIybHlhOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l1J9qrAVNHt1bDi2A/giphy.gif" alt="Coding" width="100%"/>
